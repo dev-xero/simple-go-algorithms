@@ -12,6 +12,6 @@ func main() {
 
 	gcdOfNums := algorithms.GCD(86, 32)
 
-	fmt.Printf("The index of %d in the slice is: %d", key, index)
+	fmt.Printf("The index of %d in the slice is: %dn\n", key, index)
 	fmt.Printf("The greatest common divisor of 86 and 32 is: %d", gcdOfNums)
 }

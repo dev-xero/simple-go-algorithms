@@ -1,8 +1,8 @@
 package algorithms
 
 /*
-	Euclid's algorithm for determining the greatest common divisor of two
-	numbers
+Euclid's algorithm for determining the greatest common divisor of two
+numbers
 */
 func GCD(dividend int, divisor int) int {
 	remainder := dividend % divisor
