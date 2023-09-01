@@ -9,10 +9,7 @@ func BinarySearch(key int, array []int) int {
 	lowerBound := 0
 	upperBound := len(array) - 1
 
-	for {
-		if lowerBound >= upperBound {
-			break
-		}
+	for lowerBound < upperBound {
 
 		midPoint := lowerBound + ((upperBound - lowerBound) / 2)
 
