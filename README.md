@@ -1,5 +1,8 @@
 <h1><img src="assets/gopher.png" width="32px" /> Simple Go Algorithms</h1> 
-Some simple algorithms implemented in Go as practice
 
-## Algorithms Implemented
-1. Binary Search
+<p>Some simple algorithms implemented in Go as practice</p>
+
+<h2>Algorithms Implemented</h2>
+<ol>
+  <li>Binary Search</li>
+</ol>
