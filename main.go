@@ -13,6 +13,9 @@ func main() {
 	gcdOfNums := algorithms.GCD(86, 32)
 	factOfNum := algorithms.Fact(5) // 5! -> 120
 	floorOfLogOfNum := algorithms.FloorOfLog(7, 2, 0)
+	testFib := algorithms.Fib(10)
+
+	fmt.Printf("\nFibonacci Sequence with ten terms: %s\n", testFib)
 
 	fmt.Printf("The index of %d in the slice is: %d\n", key, index)
 	fmt.Printf("The greatest common divisor of 86 and 32 is: %d\n", gcdOfNums)
