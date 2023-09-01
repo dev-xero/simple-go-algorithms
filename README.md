@@ -5,4 +5,5 @@
 <h2>Algorithms Implemented</h2>
 <ol>
   <li>Binary Search</li>
+  <li>Greatest Common Divisor (Euclidean)</li>
 </ol>
