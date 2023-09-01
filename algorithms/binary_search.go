@@ -1,11 +1,11 @@
-package binarysearch
+package algorithms
 
 /*
-*	Binary Search
-*	searches for a key in an ordered array in log-time and returns its index
-*	returns -1 if the array doesn't contain the key
+	Binary Search
+	searches for a key in an ordered array in log-time and returns its index
+	returns -1 if the array doesn't contain the key
  */
-func Search(key int, array []int) int {
+func BinarySearch(key int, array []int) int {
 	lower_bound := 0
 	upper_bound := len(array) - 1
 
