@@ -15,10 +15,30 @@ func main() {
 	floorOfLogOfNum := algorithms.FloorOfLog(7, 2, 0)
 	testFib := algorithms.Fib(10)
 
+	testWordOne := "mom"
+	testWordTwo := "anime"
+
+	var isWordOneAPalindrome string
+	if algorithms.IsPalindrome(isWordOneAPalindrome) {
+		isWordOneAPalindrome = "true"
+	} else {
+		isWordOneAPalindrome = "false"
+	}
+
+	var isWordTwoAPalindrome string
+	if algorithms.IsPalindrome(testWordTwo) {
+		isWordTwoAPalindrome = "true"
+	} else {
+		isWordTwoAPalindrome = "false"
+	}
+
 	fmt.Printf("\nFibonacci Sequence with ten terms: %s\n", testFib)
 
 	fmt.Printf("The index of %d in the slice is: %d\n", key, index)
 	fmt.Printf("The greatest common divisor of 86 and 32 is: %d\n", gcdOfNums)
 	fmt.Printf("5! is: %d\n", factOfNum)
-	fmt.Printf("The floor of log of 7 to base 2 is: %d", floorOfLogOfNum)
+	fmt.Printf("The floor of log of 7 to base 2 is: %d\n", floorOfLogOfNum)
+
+	fmt.Printf("The word '%s' is a palindrome: %s\n", testWordOne, isWordOneAPalindrome)
+	fmt.Printf("The word '%s' is a palindrome: %s\n", testWordTwo, isWordTwoAPalindrome)
 }
