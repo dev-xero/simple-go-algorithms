@@ -7,4 +7,5 @@
   <li>Binary Search</li>
   <li>Greatest Common Divisor (Euclidean)</li>
   <li>Factorial Function</li>
+  <li>Floor of Log Function</li>
 </ol>
