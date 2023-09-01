@@ -6,9 +6,9 @@ import (
 )
 
 func main() {
-	test_slice := []int{1, 3, 5, 7, 9, 11, 13, 15, 17}
+	testSlice := []int{1, 3, 5, 7, 9, 11, 13, 15, 17}
 	key := 4
-	index := algorithms.BinarySearch(key, test_slice) // -1 since 4 is absent
+	index := algorithms.BinarySearch(key, testSlice) // -1 since 4 is absent
 
 	gcdOfNums := algorithms.GCD(86, 32)
 	factOfNum := algorithms.Fact(5) // 5! -> 120

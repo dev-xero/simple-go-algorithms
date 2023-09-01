@@ -6,22 +6,22 @@ searches for a key in an ordered array in log-time and returns its index
 returns -1 if the array doesn't contain the key
 */
 func BinarySearch(key int, array []int) int {
-	lower_bound := 0
-	upper_bound := len(array) - 1
+	lowerBound := 0
+	upperBound := len(array) - 1
 
 	for {
-		if lower_bound >= upper_bound {
+		if lowerBound >= upperBound {
 			break
 		}
 
-		mid_point := lower_bound + ((upper_bound - lower_bound) / 2)
+		midPoint := lowerBound + ((upperBound - lowerBound) / 2)
 
-		if array[mid_point] == key {
-			return mid_point
-		} else if array[mid_point] > key {
-			upper_bound = mid_point - 1
+		if array[midPoint] == key {
+			return midPoint
+		} else if array[midPoint] > key {
+			upperBound = midPoint - 1
 		} else {
-			lower_bound = mid_point + 1
+			lowerBound = midPoint + 1
 		}
 	}
 
