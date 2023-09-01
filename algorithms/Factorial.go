@@ -1,7 +1,7 @@
 package algorithms
 
 /*
-	Factorial function (!)
+Factorial function (!)
 */
 func Fact(num int) int {
 	if num == 1 {
