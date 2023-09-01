@@ -6,4 +6,5 @@
 <ol>
   <li>Binary Search</li>
   <li>Greatest Common Divisor (Euclidean)</li>
+  <li>Factorial Function</li>
 </ol>
