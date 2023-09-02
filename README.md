@@ -10,5 +10,6 @@
   <li>Factorial Function</li>
   <li>Floor of Log Function</li>
   <li>Fibonacci Sequence</li>
+  <li>Fast Fibonacci Sequence (Memoization & Caching)</li>
   <li>Palindrome Checker</li>
 </ol>
