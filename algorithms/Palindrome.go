@@ -1,5 +1,8 @@
 package algorithms
 
+/*
+Algorithm for checking if a word is a palindrome or not
+*/
 func IsPalindrome(wordOne string) bool {
 	size := len(wordOne)
 
