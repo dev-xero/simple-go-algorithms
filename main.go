@@ -35,6 +35,8 @@ func main() {
 	testArray := []int{3, 6, 8, 10, 1, 2, 1}
 	algorithms.QuickSort(testArray)
 
+	fastFibSequence := algorithms.FastFib(10)
+
 	fmt.Printf("\nFibonacci Sequence with ten terms: %s\n", testFib)
 
 	fmt.Printf("The index of %d in the slice is: %d\n", key, index)
@@ -46,4 +48,5 @@ func main() {
 	fmt.Printf("The word '%s' is a palindrome: %s\n", testWordTwo, isWordTwoAPalindrome)
 
 	fmt.Println("Sorted array: ", testArray)
+	fmt.Println("Fast Fibonacci Sequence up to 10 terms:", fastFibSequence)
 }
